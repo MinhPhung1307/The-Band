@@ -1,0 +1,121 @@
+/* PC */
+@media(min-width: 1024px){
+
+}
+/* Tablet */
+@media(min-width: 740px) and (max-width: 1023px){
+
+}
+/* Mobile */
+@media(max-width: 739px){
+    #slider .text-content{
+        display: none;
+    }
+    #nav > li {
+        display:block; 
+        width: 100%;
+    }
+    #nav > li:first-child{
+        display: inline-block;
+    }
+    #nav > li:first-child a{
+        display: inline-block;
+    }
+    #nav li a{
+        display: block;
+    }
+    #header .mobile-menu{
+        display: inline-block;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    #header .search{
+        display: none;
+    }
+    #content .content-2 .bookticket{
+        width: 94%;
+    }
+    #header{
+        overflow: hidden;
+    }
+    #nav .subnav {
+        background-color: #333;
+    }
+    #nav .subnav li a{
+        color: #fff;
+        padding: 5px 40px;
+    }
+    #nav .open-menu-sub{
+        position: initial;
+    }
+    #nav .double-down.hide-double-down{
+        display: none;
+    }
+    #nav .double-up.show-double-up{
+        display: inline-block;
+    }
+    #content .content-1{
+        padding-bottom: 96px;
+    }
+    #content .text{
+        margin-bottom: 32px;
+    }
+    .content-1 .about p{
+        padding: 15px 0;
+    }
+    #content .content-1 .about{
+        width: 100%;
+        margin-top: 16px;
+        margin-bottom: 0px;
+    }
+    .content-1 .about img{
+        margin-top: 0;
+    }
+    #content .content-2 .buy-ticket .container {
+        width: 100%;
+        display: block;
+        padding: 0 16px 16px;
+    }
+    #content .content-2 .buy-ticket .btn{
+        padding:16px 16px;
+        width: 100%;
+    }
+    #content .content-3 .form,
+    #content .content-3 .contact{
+        width: 100%;
+    }
+    #content .content-3 .contact{
+        line-height: 2;
+    }
+    #content .content-3 .form{
+        padding-right: 16px;
+        width: 100%;
+        margin-top: 24px;
+    }
+    #content .content-3 .form .line-1{
+        width: 100%;
+    }
+    #content .content-3 .form .btn{
+        padding: 16px 16px;
+        width: 100%;
+    }
+    .modal .container{
+        width:95%;
+    }
+    .modal .container .modal-body input{
+        padding: 12px 0;
+    }
+    #footer .container .icon{
+        font-size: 48px;
+    }
+    #footer .container .icon i{
+        padding: 4px;
+    }
+    #footer .container .pre p{
+        font-size: 16px;
+    }
+    #footer .container .pre a{
+        padding: 8px 8px 8px 0;
+    }
+}
